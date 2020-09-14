@@ -1,0 +1,10 @@
+.to-team-page{
+    text-decoration: none;
+    color: #4a148c;
+    font-weight: 800;
+}
+
+.header__item--active {
+    border-bottom: 3px solid #372c48;
+
+}

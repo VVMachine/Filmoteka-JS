@@ -1,0 +1,9 @@
+{{#each this}}
+<div class="swiper-slide">
+    <p class="items-title">"{{title}}"</p>
+    <a href="/film/{{id}}" class="link-video" data-action="loadFilm">
+        <img class="items-photo" src="{{imgPath}}" width="200" height="280"
+            alt="{{title}}">
+    </a>
+</div>
+{{/each}}

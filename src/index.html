@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Filmoteka</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container__header">
+        <div class="header__inner">
+          <a href="/" class="header__img-link">
+            <img
+              src="./images/headerLogoMobile.png"
+              alt=""
+              class="header__logo"
+            />
+            <p class="header__logo-desc">Filmoteka</p>
+          </a>
+
+          <ul class="header__items">
+            <li class="header__item" data-position="home">
+              <a href="/" data-action="home" class="header__link">HOME</a>
+            </li>
+            <li class="header__item" data-position="library">
+              <a
+                href="/library/watched"
+                data-action="library"
+                class="header__link"
+                >MY LIBRARY</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main id="root"></main>
+
+    <footer class="footer">
+      <h2 class="footer__description">Made by <a class="to-team-page" href="developers">TheBestTeam</a></h2>
+
+      <button class="btnup">
+        <img src="./images/btnup.png" alt="" class="footer__img" />
+      </button>
+    </footer>
+  </body>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</html>

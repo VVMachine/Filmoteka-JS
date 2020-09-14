@@ -1,0 +1,55 @@
+<div class="film container display-section">
+    <div class="film__img">
+        <img class="film__img--item" src="{{img}}" alt="" />
+    </div>
+
+    <div class="film__description">
+        <h1 class="film__description--title">{{title}} ({{year}})</h1>
+
+        <div class="film__description--votes">
+            <p class="film__votes--title">vote/votes</p>
+            <p class="film__votes--value">{{vote}}/{{votes}}</p>
+        </div>
+
+        <div class="film__description--popularity">
+            <p class="film__popularity--title">popularity</p>
+            <p class="film__popularity--value">{{popularity}}</p>
+        </div>
+
+        <div class="film__description--name">
+            <p class="film__name--title">original title</p>
+            <p class="film__name--value">{{originalTitle}}</p>
+        </div>
+
+        <div class="film__description--genre">
+            <p class="film__genre--title">genre</p>
+            <ul class="film__votes">
+                {{#each genres}}
+                <li class="film__votes--value list_votes">{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <h1 class="film__description--about">About</h1>
+        <p class="film__description--text">{{overview}}</p>
+
+        <div class="film__description--buttons">
+            <button class="film__buttons--favorite" data-action="add"><i class="fas fa-video icon-blue"></i> Add to
+                watched</button>
+            <button class="film__buttons--queue" data-action="add"><i class="far fa-calendar-plus icon-blue"></i> Add to
+                queue</button>
+        </div>
+        <div class="play-control">
+            <p class="play-btn-text">Watch trailer</p>
+            <a class="play-btn" href="#"></a>
+        </div>
+    </div>
+</div>
+<div class="swiper-container">
+    <h2 class="similar-film">Similar movies</h2>
+    <div class="swiper-wrapper"></div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-scrollbar"></div>
+</div>

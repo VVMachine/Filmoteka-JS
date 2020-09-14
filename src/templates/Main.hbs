@@ -1,0 +1,22 @@
+<form id="search-form">
+    <button action="submit"><i class="fa fa-search"></i></button>
+    <input class="input" name="query" autocomplete="off" placeholder="Write movie name and click Enter">
+
+</form>
+
+<div class="container-main">
+
+    <h2 class="empty-films non-visible"></h2>
+    <ul class="films-list">
+        <!-- container to render film elements -->
+    </ul>
+
+    <div class="list-controls">
+        <button class="btn-prev control-btn" data-action="decrement"><span>Prev</span></button>
+        <span class="page-number">
+            <span class="page-number-value">1</span>
+        </span>
+        <button class="btn-next control-btn" data-action="increment"><span>Next</span></button>
+    </div>
+
+</div>

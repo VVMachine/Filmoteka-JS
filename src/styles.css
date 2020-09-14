@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto' ,serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1024px;
+}
+
+#root{
+  min-height: calc(100vh - 153px);
+  position: relative;
+}
+
+@font-face{
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto.woff2');
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face{
+  font-family: 'Roboto';
+  src: url('./fonts/Robotomedium.woff2');
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face{
+  font-family: 'DroidSans';
+  src: url('./fonts/DroidSans-Bold.woff');
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face{
+  font-family: 'DancingScript';
+  src: url('./fonts/DancingScript-Bold.ttf');
+  font-weight: 700;
+  font-stretch: normal;
+}
